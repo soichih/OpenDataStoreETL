@@ -33,6 +33,7 @@ git_dir		   = "/home/foster/Documents/Library/Data/COVID-19/JHU/"
 daily_reports	   = "/csse_covid_19_data/csse_covid_19_daily_reports/"
 outputdir	   = "/home/foster/Documents/Library/Data/COVID-19/dtiproducts/"
 coordfile	   = "/home/foster/Documents/Library/Data/EARTH/country_coordinates.csv"
+fipsfile           = pd.read_csv("/home/hayashis/data/fips.csv")
 matchingColumnName = "Country/Region"
 sumColumnNames     = ["Confirmed", "Deaths", "Recovered"]
 carryoverColumns   = ["DataSource", "Last Update"]
